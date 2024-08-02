@@ -1,0 +1,58 @@
+form {
+    display: inline-block;
+    text-align: right;
+    border-radius: 35px;
+    padding: 30px;
+    border: 2px solid #cfb4c6;
+    background-color: #9e8d9c;
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body{
+    background-color: rgb(215, 195, 232);
+
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+
+td.even {
+    background-color: #e0cae4;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li {
+    display: inline;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 150%;
+}
+
+input {
+    font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1 px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px; 
+    margin-bottom: 10px;
+    display: block;
+}

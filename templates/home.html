@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <div>
+                <h1>{{home_message}}</h1>
+                <p>{{home_para}}</p>
+                        <ul>
+                        <li> <a href="/my_data/">Data</a> </li>
+                        <li><a href="/login/">Form</a></li>
+                        </ul>
+                        <br />
+
+                        <img height="200" width="1250" src="{{ url_for('static', filename = 'images/image.jpg') }}"  class="image">
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>

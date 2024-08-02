@@ -1,0 +1,6 @@
+CREATE TABLE `user_info` (
+  `user_name` varchar(100) DEFAULT NULL,
+  `user_age` int DEFAULT NULL,
+  `user_city` varchar(100) DEFAULT NULL,
+  `user_hobby` varchar(300) DEFAULT NULL
+)
